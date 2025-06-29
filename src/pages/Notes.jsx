@@ -3,7 +3,6 @@ import { MdOutlineDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { bcaNotes } from "../utils/Data";
 
-
 const Notes = () => {
   return (
     <div className="py-10 bg-gray-50 min-h-screen">

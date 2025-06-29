@@ -7,7 +7,10 @@ import Doubt from "./pages/Doubt";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import ProtectComponents from "./components/ProtectComponents";
+
+
 import TeacherLayout from "./layout/TeacherLayout";
+import TeachDashboard  from "./pages/Teacher/Dashboard";
 import AddNotes from "./pages/Teacher/AddNotes";
 import AddMockTest from "./pages/Teacher/AddMockTest";
 import AddStudents from "./pages/Teacher/AddStudents";
@@ -27,9 +30,9 @@ const App = () => {
       </Route>
 
       <Route path="/teacher" element={<TeacherLayout />}>
-        <Route index element={<Dashboard />} />
+        <Route index element={<TeachDashboard />} />
         <Route path="add-notes" element={<AddNotes />} />
-        <Route path="add-mocttest" element={<AddMockTest />} />
+        <Route path="add-mocktest" element={<AddMockTest />} />
         <Route path="add-student" element={<AddStudents />} />
         <Route path="View-students" element={<ViewStudents />} />
         <Route path="View-doubts" element={<ViewDoubts />} />

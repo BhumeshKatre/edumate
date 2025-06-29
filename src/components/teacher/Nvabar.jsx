@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Nvabar = () => {
   const navLinks = [
-    { to: "/teacher/dashboard", icon: <FaHome />, label: "Dashboard" },
-    { to: "/teacher/add-notes", icon: <FaBook />, label: "Add Notes" },
-    { to: "/teacher/add-mocktest", icon: <FaBook />, label: "Add MockTest" },
+    { to: "/teacher", icon: <FaHome />, label: "Dashboard" },
     { to: "/teacher/add-student", icon: <FaUsers />, label: "Add Student" },
+    { to: "/teacher/add-notes", icon: <FaBook />, label: "Add Notes" },
     { to: "/teacher/view-students", icon: <FaUsers />, label: "View Students" },
     { to: "/teacher/view-doubts", icon: <FaBook />, label: "View Doubts" },
+    { to: "/teacher/add-mocktest", icon: <FaBook />, label: "Add MockTest" },
   ];
 
   return (
