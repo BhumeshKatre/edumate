@@ -1,15 +1,20 @@
-import React from 'react';
+import React from "react";
+import Nvabar from "../components/teacher/Nvabar";
+import { Outlet } from "react-router-dom";
 
 const TeacherLayout = () => {
   return (
     <>
-      <Navbar />
-      <div className="px-10 py-5 min-h-screen ">
-        <Outlet />
+      <div className="flex">
+        <div className="">
+          <Nvabar />
+        </div>
+        <div className="p-5 flex-1 h-screen overflow-auto">
+          <Outlet />
+        </div>
       </div>
-      <Footer />
     </>
   );
-}
+};
 
 export default TeacherLayout;
