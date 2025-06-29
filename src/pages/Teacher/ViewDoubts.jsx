@@ -1,26 +1,7 @@
 import React from 'react';
 import { FaQuestionCircle } from 'react-icons/fa';
+import { dummyDoubts } from '../../utils/Data';
 
-const dummyDoubts = [
-  {
-    id: 1,
-    student: 'Ankita Sharma',
-    question: 'Can you explain normalization in DBMS?',
-    submittedAt: '2025-06-25 10:30 AM',
-  },
-  {
-    id: 2,
-    student: 'Rahul Patil',
-    question: 'What is the difference between GET and POST in HTTP?',
-    submittedAt: '2025-06-26 2:45 PM',
-  },
-  {
-    id: 3,
-    student: 'Sneha Raut',
-    question: 'How to implement pagination in MongoDB?',
-    submittedAt: '2025-06-27 11:15 AM',
-  },
-];
 
 const ViewDoubts = () => {
   return (

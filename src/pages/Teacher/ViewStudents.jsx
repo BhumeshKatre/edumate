@@ -1,21 +1,5 @@
 import React from 'react';
-
-const students = [
-  {
-    id: 1,
-    name: 'Bhumesh Katre',
-    email: 'dev.bhumesh@gmail.com',
-    profile: 'Front-end developer and BCCA student.',
-    avatar: 'https://ui-avatars.com/api/?name=Bhumesh+Katre&background=0D8ABC&color=fff'
-  },
-  {
-    id: 2,
-    name: 'Sneha Patel',
-    email: 'sneha.patel@example.com',
-    profile: 'Back-end enthusiast and Node.js learner.',
-    avatar: 'https://ui-avatars.com/api/?name=Sneha+Patel&background=F59E0B&color=fff'
-  }
-];
+import { students } from '../../utils/Data';
 
 const ViewStudents = () => {
   return (
