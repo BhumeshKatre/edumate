@@ -1,5 +1,6 @@
 import React from "react";
 import ProgressTracker from "../components/ProgressTracker";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const quickLinks = [
@@ -40,12 +41,12 @@ const Dashboard = () => {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <a
+                  <Link
                     href={link.href}
                     className="block px-4 py-2 rounded bg-gray-300 text-gray-500 hover:bg-gray-600 transition"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
