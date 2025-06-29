@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="p-3 bodrer-b border-gray-200 shadow-md bg-white flex justify-between items-center ">
+    <header className="px-6 sticky top-0 left-0 p-3 bodrer-b border-gray-200 shadow-md bg-white flex justify-between items-center ">
       <img
         className="w-40 "
         src={logo}
